@@ -71,7 +71,7 @@ function WhoWin() {
 
 var turn = "X";
 function cellclicked(event) {
-    if ($(event.target).text() === '') {
+    if ($(event.target).text() === '' && gameOver === false) {
         if (turn === "X") {
             $(event.target).text("X")
             turn = "O";
@@ -79,9 +79,9 @@ function cellclicked(event) {
         } else {
             $(event.target).text("O");
             turn = "X";
-        } WhoWin();
-    }             
+        } WhoWin();           
 
+    }  
 }
 
 
