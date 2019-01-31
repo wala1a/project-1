@@ -19,7 +19,7 @@ function WhoWin() {
     if ((cell1 === cell2) && (cell2 === cell3) && (cell2 !== "")) {
         //console.log("Win 1");
         //counters [turn]++
-        alert(" Win! " + cell3);
+        alert(" Winner! " + cell3);
         gameOver = true;
 
     }
@@ -27,38 +27,38 @@ function WhoWin() {
         //console.log("Win 2");
         //counters [turn]++
         gameOver = true;
-        alert(" Win! " + cell6);
+        alert(" Winner! " + cell6);
     } else if ((cell7 === cell8) && (cell8 === cell9) && (cell8 !== "")) {
         //console.log("Win 3");
         //counters [turn]++
         gameOver = true;
-        alert(" Win! ")+ cell9;
+        alert(" Winner! ")+ cell9;
     } else if ((cell1 === cell4) && (cell4 === cell7) && (cell1 !== '')) {
        // console.log("Win 4");
         //counters [turn]++
         gameOver = true;
-        alert(" Win! " + cell7);
+        alert(" Winner! " + cell7);
     } else if ((cell2 === cell5 )&& (cell5 === cell8) && (cell2 !== '')) {
         //console.log("Win 5");
         //counters [turn]++
         gameOver = true;
-       alert(" Win! " + cell8);
+       alert(" Winner! " + cell8);
     } else if ((cell3 === cell6) && (cell6 === cell9) && (cell3 !== '') ){
         //console.log("Win 6");
         //counters [turn]++
         gameOver = true;
-        alert(" Win! " + cell9);
+        alert(" Winner! " + cell9);
 
     } else if ((cell3 === cell5) && (cell5) === cell7 && (cell3 !== '')) {
         //console.log("Win 7");
         //counters [turn]++
         gameOver = true;
-        alert(" Win! " + cell7);
+        alert(" Winner! " + cell7);
     } else if ((cell1 === cell5) && (cell5 === cell9) && (cell1 !== '')) {
         //console.log("Win 8");
         //counters [turn]++
         gameOver = true;
-        alert(" Win! " + cell9);
+        alert(" Winner! " + cell9);
 
     } else if ((cell1 !== '')  && (cell2 !== '') && (cell3 !== '') && (cell4 !== '') && (cell5 !== '') &&(cell6 !== '') && (cell7 !== '') && (cell8 !== '') && (cell9 !== '')){
         //console.log("tie");
