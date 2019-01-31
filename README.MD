@@ -1,6 +1,6 @@
 #Tic tac toe
 
-The game itself is quite simple. But the concept of programming it is not. The computer must recognize the moves of the player and act accordingly to player’s strategy . This is quite complicated and actually not needed to finish this assignment.
+The game itself is quite simple. But the concept of programming it is not. The computer must recognize the moves of the player and act accordingly to player’s strategy . 
 
 All I have to create is a simple game that will allow my users to check the which figure they want to be playing.
 
